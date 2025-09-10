@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+
+
+.para{
+    font-size: 20px;
+}
+
+.big-letter{
+    font-size: 60px;
+    font-family:'Roboto Condensed'
+}
+
+
+.title{
+    text-align: center;
+    font-family: 'Story Script';
+}
+
+
+.tr3{
+    text-align: center;
+    font-family: 'Roboto Condensed';
+}
