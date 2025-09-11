@@ -9,17 +9,47 @@
 
 .big-letter{
     font-size: 60px;
-    font-family:'Roboto Condensed'
+    font-family:'Roboto Condensed';
+    color:white;
 }
 
 
 .title{
     text-align: center;
     font-family: 'Story Script';
+    color:antiquewhite;
 }
 
 
 .tr3{
     text-align: center;
     font-family: 'Roboto Condensed';
+    color:bisque;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center; /* center the nav block itself */
+    align-items: center;
+    
+}
+
+.navigation {
+    display: flex;
+    gap: 50px; /* evenly space out each link */
+    text-decoration: none;
+}
+
+.a1, .a2, .a3{
+    font-size: 25px;
+
+    color:wheat;
+
+    font-family:'Roboto Condensed';
+}
+
+
+body{
+    background-image: url(assets/background.jpg);
 }

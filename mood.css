@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+
+
+
+
+
+body{
+    background-image: url(assets/background.jpg);
+
+}
+
+.moodask{
+    text-align:center;
+    color:antiquewhite;
+    font-family:'Roboto Condensed';
+}
+
+.moodask:hover{
+    text-decoration: underline;
+    
+}
+
+
+.colors{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+    
+}
+.red, .green, .blue, .purple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto condensed';
+}
+
+.red{
+    background-color:red ;
+    text-align: center;
+    width:200px;
+    height:200px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.green{
+    background-color: green;
+    text-align: center;
+    width:200px;
+    height:200px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.blue{
+    background-color: blue;
+    text-align: center;
+    width:200px;
+    height:200px;
+    border-radius: 15px;
+    cursor:pointer;
+    
+}
+
+.purple{
+    background-color: purple;
+    text-align: center;
+    width:200px;
+    height:200px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: center; /* center the nav block itself */
+    align-items: center;
+    
+}
+
+.navigation {
+    display: flex;
+    gap: 50px; /* evenly space out each link */
+    text-decoration: none;
+}
+
+.a1, .a2, .a3{
+    font-size: 25px;
+
+    color:wheat;
+
+    font-family:'Roboto Condensed';
+}
