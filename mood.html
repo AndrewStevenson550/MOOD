@@ -8,18 +8,88 @@
 </head>
 <body>
     <div class="nav">
-        <nav class="navigation"><a href="index.html" class="a1">Home</a><a href="mood.html", class="a2">Mood</a><a href="about.html", class="a3">About</a></nav>
+        <nav class="navigation"><a href="index.html" class="a1">Home</a><a href="mood.html", class="a2">Mood</a><a href="page.html", class="a3">Submision History</a></nav>
     </div>
     <h1 class="moodask">
         Whats Your Mood?
     </h1>
 
     <div class="colors">
-        <div class="red">Angry</div>
-        <div class="green">Good</div>
-        <div class="blue">Sad</div>
-        <div class="purple">Chill</div>
-    </div>
+  <div id="red" class="red">Red</div>
+  <div id="green" class="green">Green</div>
+  <div id="blue" class="blue">Blue</div>
+  <div id="purple" class="purple">Purple</div>
+</div>
+
+<!-- Popup -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <textarea id="popupInput" placeholder="Write something..."></textarea>
+    <button id="closePopup">Submit & Go</button>
+  </div>
+</div>
+
+<style>
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+</style>
+
+<script>
+const red = document.getElementById("red");
+const green = document.getElementById("green");
+const blue = document.getElementById("blue");
+const purple = document.getElementById("purple");
+
+const popup = document.getElementById("popup");
+const closePopup = document.getElementById("closePopup");
+const inputBox = document.getElementById("popupInput");
+
+let currentColor = ""; // track which div was clicked
+
+function showPopup(color) {
+  currentColor = color;
+  popup.style.display = "flex";
+  inputBox.value = "";
+}
+
+red.addEventListener("click", () => showPopup("Red"));
+green.addEventListener("click", () => showPopup("Green"));
+blue.addEventListener("click", () => showPopup("Blue"));
+purple.addEventListener("click", () => showPopup("Purple"));
+
+closePopup.addEventListener("click", () => {
+  const text = inputBox.value.trim();
+  const date = new Date().toLocaleString();
+
+  // encode values for the URL
+  const params = new URLSearchParams({
+    color: currentColor,
+    text: text,
+    date: date
+  });
+
+  // go to page.html with data
+  window.location.href = `page.html?${params.toString()}`;
+});
+</script>
 
 
 
