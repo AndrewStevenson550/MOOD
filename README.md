@@ -21,6 +21,7 @@ Blue → Sad
 
 Purple → Chill / Other
 
+![MOOD Screenshot](Screenshot%202025-09-12%2012.24.46%20PM.png)
 
 
 Additionally, you can write a short message to describe your feelings in your own words. Each entry is logged, allowing you to keep track of your emotions over time.
