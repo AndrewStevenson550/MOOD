@@ -10,8 +10,6 @@ Sometimes, coding can feel like problem after problem. But projects like this re
 
 🖼 Add custom cards with text, images, or colors.
 
-🖱 Drag & drop cards into your perfect layout.
-
 💾 Autosave with LocalStorage — your board stays the way you left it.
 
 🎨 Modern design using CSS grid, soft shadows, and clean typography.
