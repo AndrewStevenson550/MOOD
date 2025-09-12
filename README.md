@@ -10,6 +10,9 @@ A creative space built with HTML, CSS, and JavaScript where ideas, images, and c
 
 Sometimes, coding can feel like problem after problem. But projects like this remind me that code is also about expression. I wanted a small but meaningful challenge, something between playful and practical. The Mood Board Dashboard is just that: a project that looks good, feels interactive, and shows how even beginner-friendly tools can create something inspiring.
 
+# 🌃 is it
+Mood is a way for you to log what you are feeling. You can do this by pressing the four buttons, red, green, blue, and purple (Angry, Happy, Sad, Chill/Other). You can also write a message that will log and say what you are feeling. 
+
 # 🛠 Features
 
 🖼 Add custom cards with text, images, or colors.
