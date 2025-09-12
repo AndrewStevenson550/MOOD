@@ -1,3 +1,7 @@
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-green)](https://andrewstevenson550.github.io/MOOD/index.html)
+
+
+
 # 🌈 Mood Board Dashboard
 
 A creative space built with HTML, CSS, and JavaScript where ideas, images, and colors come together. This isn’t just a simple app — it’s a personal canvas that lets you capture inspiration, arrange your thoughts, and make them visually yours.
